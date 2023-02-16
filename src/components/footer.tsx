@@ -3,7 +3,10 @@ import Logo from "../assets/images/hp_logo.png";
 
 const Footer = () => {
   return (
-    <footer id="footer" className="flex items-center justify-between p-10">
+    <footer
+      id="footer"
+      className="flex items-center justify-between p-10 pr-20 bg-pink-100 border-t-2 border-gray-300"
+    >
       <section className="">
         <a style={{ textDecoration: "none" }} href="#hero">
           <figure className="flex">
@@ -14,21 +17,21 @@ const Footer = () => {
         <p className="">&copy; HealthPoint Fitness Center, LLC. </p>
         <p className="">All righs reserved. </p>
       </section>
-      <section className="">
+      <section className="flex gap-20 text-gray-500">
         <section>
-          <h2 className="">Company</h2>
+          <h2 className="font-bold mb-2">Company</h2>
           <ul>
-            <li className="">
+            <li className="mb-1">
               <a href="/about" className="">
                 About
               </a>
             </li>
-            <li className="">
+            <li className="mb-1">
               <a href="#events" className="">
                 Events
               </a>
             </li>
-            <li className="">
+            <li className="mb-1">
               <a href="/" className="">
                 Sponsors
               </a>
@@ -36,19 +39,19 @@ const Footer = () => {
           </ul>
         </section>
         <section>
-          <h2 className="er">Support</h2>
+          <h2 className="font-bold mb-2">Support</h2>
           <ul>
-            <li className="">
+            <li className="mb-1">
               <a href="#contact" className="">
                 Contacts
               </a>
             </li>
-            <li className="">
+            <li className="mb-1">
               <a href="#faq" className="">
                 FAQ
               </a>
             </li>
-            <li className="">
+            <li className="mb-1">
               <a href="#legal" className="">
                 Legal
               </a>
@@ -56,29 +59,29 @@ const Footer = () => {
           </ul>
         </section>
         <section>
-          <h2 className="">Socials</h2>
+          <h2 className="font-bold mb-2">Socials</h2>
           <ul>
-            <li className="">
+            <li className="mb-1">
               <a href="https://instagram.com" target="_blank" className="">
-                <FaInstagram />
+                <FaInstagram className="h-6 w-6" />
               </a>
             </li>
-            <li className="footer__text">
+            <li className="mb-1">
               <a
                 href="https://facebook.com"
                 target="_blank"
                 className="footer__icon"
               >
-                <FaFacebookSquare />
+                <FaFacebookSquare className="h-6 w-6" />
               </a>
             </li>
-            <li className="footer__text">
+            <li className="mb-1">
               <a
                 href="https://twitter.com"
                 target="_blank"
                 className="footer__icon"
               >
-                <FaTwitter />
+                <FaTwitter className="h-6 w-6" />
               </a>
             </li>
           </ul>
